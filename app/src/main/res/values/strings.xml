@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="key_clima">acaleponemoslakeydelapi</string>
+    <string name="menu_item1">Item1</string>
+    <string name="menu_item2">Item2</string>
+    <string name="menu_item3">Item3</string>
+
+</resources>
