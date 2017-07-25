@@ -3,39 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\99284716703d5f6450e7e6ee39b675ab664d2a0c\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\cbafb49ca145dbdb97561f4a39ebeb54ec07e9eb\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9b629015ebe497bfbd6cf705b1d268253871bc10\classes.dex" />
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6b53ef23ef1b755e72afe8b3448ac0055aa3e6e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\01097d42adc108f13126fe3e38c460e8d7240e28\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\bf9a5f1ea262db2961978d38349952b9b15bea95\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_317785b039bdaf824fc62cada34e452221c6b032\classes.dex" />
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c2f6c1859edded4a662cc3b023634299f45a87f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\c8fa0b01793f6409bad67e2ee60bbcc43649394c\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\c22d287ee99a69a5ded07e1faf30ff5cd1e7f4f0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_499ebd56fdf141ee6799f3d0437dc5436cf90c76\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Lenovo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_4f614860d9f0e55388571ced02ae1091c295c760\classes.dex" />
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06cb465f6d79e964e8cae75c9b9d07957e2776d3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,48 +39,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\d41b73ea4dac95feb3beab816d2cabe80af228e8\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\bfaae67c97fe410ab00812781ce0bf52a227fbcc\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c3649a888753a3aaec36c8fc1776d7c7f62e0ff\classes.dex" />
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8647be6546366cdb4c4a2810aa42338dcc89ce6b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\c6db7143bb80d7e3ca328362762604262b61bd2a\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\5d37f2901806d8cdc37be61ded42f3be66820176\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f713e3eb0576e0e4fc4da08dddfd71d626d4d94f\classes.dex" />
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd89c78234c9e45bf8f2fb282a96182f919c2da6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\8af3d3eb18ed60d9877233454fd37cd1010fe02e\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\f892c15a94a12f0805620a4311993d4056877ed5\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c3fccf06314e689843b7bf332956e63de9e3c30\classes.dex" />
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc72757a3b4fe56ab731b8adff4a1f031dc87314\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\43938c6360c40c1bceedc4976f1f278d48dc42db\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\3fbf63c6b3a1784890a9c966cb1a60171580e2cc\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1d73fa78f099d0f53a133152b001bc96d0d4825\classes.dex" />
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c29b0e96b3fb5b5bedf974904b8523838ee584d\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\f15f91d39a152de6a7fe7500a7e4fb56d060d255\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\8c57974144b8d7bf70849ebf62393480d1eaee3e\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9884a0b67602b2357d6fd6349675a3823f2a37d\classes.dex" />
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64cc76d487104ac486e010eaeda1facd8c78a572\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_aa9dfdee2773c01909574e5daff1a84b6efe8362\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -97,17 +97,44 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="809c53e6759a9b32b5cb2a2acf905fd5f00d5c61">
+        sha1="995a34dd3b5091a0dcdb0d01b5d76e3ff94ba6ba">
         <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5ddb14a294a9290f49d42a2de027610c824aa336\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Lenovo\.android\build-cache\f4e0534054289d108492380e451a1fcd6eb03aab\output\jars\classes.jar"
+        jar="C:\Users\Lenovo\.android\build-cache\c1f6cad4a110f318a4103eac485ac7105ccf550f\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17bbf61d47845057bdf426368c9cc4ff1f2b302a\classes.dex" />
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f5d4e795dd68f083621dc358e638bf090f7125a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\43699b04e512ed7e8a03e00761aac401c2a87f27\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_04d9e23b83c3d6e69854b7cd6255d9900194bd6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\f8510175fc66068c2d9ba5bc03dec1fb5d5886ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a7041a02d6087d96334ca2f8aa6b892a1e95d3aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\a0965350342c72d56784d235a979abd11f207b31\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Documentos\AndroidProyectos\Clima\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af4797cba501080ff046a11918dfc5875af6614f\classes.dex" />
     </item>
 
 </items>

@@ -7,11 +7,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     //BluetoothAdapter adaptadorBluetooth;
+    private Button boton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
             adaptadorBluetooth.enable();
         }
         */
+
+        boton=(Button)findViewById(R.id.button);
+        boton.setOnClickListener(this);
     }
 
     @Override
@@ -51,5 +57,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v==boton){
+            Intent i =new Intent(this,Lista.class);
+            startActivity(i);
+        }
     }
 }
