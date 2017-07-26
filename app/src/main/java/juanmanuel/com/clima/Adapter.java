@@ -29,7 +29,9 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     public void onBindViewHolder(Adapter.ViewHolder holder, int position) {
 
         PronosticoTiempo pronosticoDelItem=lista.get(position);
-        holder.texto.setText(pronosticoDelItem.getTemp());
+        holder.texto1.setText("                 Temperatura: "+pronosticoDelItem.getTemp());
+        holder.texto2.setText("                 Temperatura max: "+pronosticoDelItem.getTempMax());
+        holder.texto3.setText("                 Temperatura min: "+pronosticoDelItem.getTempMin());
 
     }
 
@@ -43,13 +45,17 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     public static class ViewHolder extends RecyclerView.ViewHolder{
 
         private ImageView icono;
-        private TextView texto;
+        private TextView texto1;
+        private TextView texto2;
+        private TextView texto3;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
             icono=(ImageView)itemView.findViewById(R.id.imageViewItem);
-            texto=(TextView)itemView.findViewById(R.id.textViewItem);
+            texto1=(TextView)itemView.findViewById(R.id.textViewItem1);
+            texto2=(TextView)itemView.findViewById(R.id.textViewItem2);
+            texto3=(TextView)itemView.findViewById(R.id.textViewItem3);
         }
     }
 }

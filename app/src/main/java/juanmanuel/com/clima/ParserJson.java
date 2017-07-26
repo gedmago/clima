@@ -17,13 +17,10 @@ public class ParserJson  {
     private String humidity;    //humedad en %
     private String tempMin;     //temeratura mínima
     private String tempMax;     // temperatura máxima
-    private String seaLevel;    //presión atmosférica al nivel del mar en hPa
-    private String grndLevel;   //presión atmosférica al nivel del suelo en hPa
     private String speed;       //velocidad del viento en m/s
     private String degWind;     //dirección del viento en º
     private String all;         //nubosidad en%
     private String tresHRain;   //volumen de lluvia en las últimas 3 horas
-    private String tresHSnow;   //volumen de nieve en las últimas tres horas
     private String country;     //código de país
     private String sunrise;     //hora de salida del sol
     private String sunset;      //hora de puesta del sol
@@ -126,22 +123,6 @@ public class ParserJson  {
         this.tempMax = tempMax;
     }
 
-    public String getSeaLevel() {
-        return seaLevel;
-    }
-
-    public void setSeaLevel(String seaLevel) {
-        this.seaLevel = seaLevel;
-    }
-
-    public String getGrndLevel() {
-        return grndLevel;
-    }
-
-    public void setGrndLevel(String grndLevel) {
-        this.grndLevel = grndLevel;
-    }
-
     public String getSpeed() {
         return speed;
     }
@@ -172,14 +153,6 @@ public class ParserJson  {
 
     public void setTresHRain(String tresHRain) {
         this.tresHRain = tresHRain;
-    }
-
-    public String getTresHSnow() {
-        return tresHSnow;
-    }
-
-    public void setTresHSnow(String tresHSnow) {
-        this.tresHSnow = tresHSnow;
     }
 
     public String getCountry() {
@@ -239,24 +212,24 @@ public class ParserJson  {
             coordLat=coord.getString("lat");
             coordLon=coord.getString("lon");
 
-            /*
+
             JSONArray weather=padre.getJSONArray("weather");
-            weatherId=weather.ge;
-            description=weather.getString("description");
-            icon=weather.getString("icon");
-            */
+            JSONObject wather0=weather.getJSONObject(0);
+            weatherId=wather0.getString("id");
+            description=wather0.getString("description");
+            icon=wather0.getString("icon");
+
 
             base=padre.getString("base");
-            /*
+
             JSONObject main=padre.getJSONObject("main");
-            temp=weather.getString("temp");
-            pressure=weather.getString("pressure");
-            humidity=weather.getString("humidity");
-            tempMin=weather.getString("temp_min");
-            tempMax=weather.getString("temp_max");
-            seaLevel=weather.getString("sea_level");
-            grndLevel=weather.getString("grnd_level");
-            */
+            temp=main.getString("temp");
+            pressure=main.getString("pressure");
+            humidity=main.getString("humidity");
+            tempMin=main.getString("temp_min");
+            tempMax=main.getString("temp_max");
+
+
 
             JSONObject wind=padre.getJSONObject("wind");
             speed=wind.getString("speed");
@@ -267,9 +240,6 @@ public class ParserJson  {
 
             JSONObject rain=padre.getJSONObject("rain");
             tresHRain=rain.getString("3h");
-
-            JSONObject snow=padre.getJSONObject("snow");
-            tresHSnow=snow.getString("3h");
 
             JSONObject sys=padre.getJSONObject("sys");
             country=sys.getString("country");

@@ -53,8 +53,9 @@ public class Lista extends AppCompatActivity {
         tempMax=objetoJsonParseado.getTempMax();
         tempMin=objetoJsonParseado.getTempMin();
 
-        lista.add(new PronosticoTiempo(temp,tempMax,tempMin));
-
+        for(int i=1;i<=20;i++) {
+           lista.add(new PronosticoTiempo(temp, tempMax, tempMin));
+        }
 
         adapter.notifyDataSetChanged();
 
